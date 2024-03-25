@@ -1,7 +1,9 @@
-const Article = ({ title, subtitle }) => {
+import { ImgCustom } from "./ImgCustom";
+const Article = ({ title, subtitle, url }) => {
   return (
     <div className="self-stretch rounded-md box-border flex flex-row items-start justify-start py-4 px-[15px] gap-[16px] max-w-full text-left text-base text-black font-roboto border-[1px] border-solid border-gray-300 mq450:flex-wrap">
-      <div className="h-[100px] w-[100px] relative bg-gainsboro" />
+      <ImgCustom url={url} style={"h-[100px] w-[100px] relative bg-gainsboro"} alt={title} />
+      
       <div className="w-[372px] flex flex-col items-start justify-start gap-[8px] min-w-[242px] max-w-full">
         <div className="self-stretch relative text-xl leading-[28px] font-medium mq450:text-base mq450:leading-[22px]">
           {title}

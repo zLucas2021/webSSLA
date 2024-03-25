@@ -1,18 +1,27 @@
 import './App.css'
 import TopBar from './components/TopBar'
-import Section from './components/Section'
-import Section1 from './components/Section1'
-import Section2 from './components/Section2'
-import Section3 from './components/Section3'
+import SectionTop from './components/SectionTop'
+import Projects from './components/Projects'
+import Feature from './components/Feature'
+import Contact from './components/Contact'
+import Footer from './components/Footer'
+import { useState } from 'react'
 function App() {
+  const [shouldFocusProjects, setShouldFocusProjects] = useState(false);
+
+  const handleButtonClick = () => {
+    setShouldFocusProjects(!shouldFocusProjects);
+   
+  };
 
   return (
     <>
-    <TopBar/>
-    <Section/>
-    <Section1/>
-    <Section2/>
-    <Section3/>
+    <TopBar />
+    <SectionTop onfocusProjec={handleButtonClick}/>
+    <Projects shouldFocus={shouldFocusProjects}/>
+    <Feature/>
+    <Contact/>
+    <Footer></Footer>
     </>
   )
 }
