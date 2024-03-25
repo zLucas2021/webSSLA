@@ -2,7 +2,7 @@ import Card from "./Card";
 
 const Section1 = () => {
   return (
-    <div className="w-[1440px] max-w-full overflow-hidden flex flex-col items-start justify-start py-[60px] px-0 box-border gap-[60px] tracking-[normal] mq750:gap-[30px_60px]">
+    <div className="w-[1440px] max-w-full overflow-hidden flex flex-col items-start justify-start py-[60px] px-0 box-border gap-[60px] tracking-[normal] mq750:gap-[30px_60px] mx-auto">
       <section className="self-stretch flex flex-row items-start justify-center py-0 px-5 box-border max-w-full shrink-0 text-center text-21xl text-black font-roboto">
         <div className="w-[1100px] flex flex-col items-start justify-start gap-[24px] max-w-full">
           <div className="self-stretch flex flex-row items-start justify-center py-0 px-5 box-border max-w-full">

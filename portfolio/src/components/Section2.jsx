@@ -2,7 +2,7 @@ import Article from "./Article";
 
 const Section2 = () => {
   return (
-    <div className="w-[1440px] max-w-full overflow-hidden flex flex-col items-start justify-start pt-[60px] px-0 pb-20 box-border gap-[80px] tracking-[normal] mq450:gap-[20px_80px] mq750:gap-[40px_80px]">
+    <div className="mx-auto w-[1440px] max-w-full overflow-hidden flex flex-col items-start justify-start pt-[60px] px-0 pb-20 box-border gap-[80px] tracking-[normal] mq450:gap-[20px_80px] mq750:gap-[40px_80px]">
       <section className="self-stretch flex flex-row items-start justify-center py-0 px-5 box-border max-w-full shrink-0 text-left text-21xl text-black font-roboto">
         <div className="w-[1100px] flex flex-row flex-wrap items-end justify-start gap-[60px] max-w-full mq1100:gap-[30px]">
           <div className="flex-1 flex flex-col items-start justify-start gap-[42px] min-w-[338px] max-w-full mq450:min-w-full mq750:gap-[21px_42px]">

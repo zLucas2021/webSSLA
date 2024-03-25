@@ -1,8 +1,8 @@
-import "bootstrap/dist/css/bootstrap.min.css";
+
 const Container = () => {
   
   return (
-    <section className="w-[1100px] flex flex-col items-center justify-start py-0 px-5 box-border gap-[24px] max-w-full text-center text-21xl text-white font-roboto">
+    <section  className="w-[1100px] flex flex-col items-center justify-start py-0 px-5 box-border gap-[24px] max-w-full text-center text-21xl text-white font-roboto">
       <h1 className="m-0 w-[520px] relative text-inherit leading-[48px] font-bold font-inherit inline-block max-w-full mq450:text-5xl mq450:leading-[29px] mq1025:text-13xl mq1025:leading-[38px]">
         Welcome to Our Software Factory
       </h1>
